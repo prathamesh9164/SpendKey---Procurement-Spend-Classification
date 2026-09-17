@@ -1,0 +1,198 @@
+transaction_id,spend_description,vendor,source_type
+1,"Microsoft 365 E3 – annual renewal, 800 seats",Microsoft,Vendor invoice / PO
+2,"Microsoft 365 E3 – annual renewal, 800 seats",Microsoft,Vendor invoice / PO
+3,"Dell Latitude 5540 – 120-unit refresh, 3yr warranty",Dell Technologies,Vendor invoice / PO
+4,"Okta Identity Cloud – 2,000-user SSO, annual SaaS",Okta,Vendor invoice / PO
+5,Zoom Enterprise – 500-seat annual licence,Zoom,Vendor invoice / PO
+6,"CrowdStrike Falcon – 1,200 endpoint licence, annual SaaS",CrowdStrike,Vendor invoice / PO
+7,Cisco Meraki MS350 switches – 40-unit network refresh,Cisco Meraki,Vendor invoice / PO
+8,"GitHub Enterprise – 60-seat developer licence, annual SaaS",GitHub / Microsoft,Vendor invoice / PO
+9,"AWS Reserved Instances – 3yr, 400 vCores (eu-west-1)",Amazon Web Services,Service contract / PO
+10,"Snowflake Data Cloud – compute credits + storage, quarterly usage",Snowflake,Service contract / PO
+11,"Samsung Galaxy Tab Active 4 – 200 units, clinical use",Samsung Electronics,Service contract / PO
+12,"TCS outsourced helpdesk – 50-agent managed service, monthly",Tata Consultancy Services,Service contract / PO
+13,"Akamai CDN – monthly variable usage, content streaming",Akamai Technologies,Service contract / PO
+14,"Power BI Premium – capacity licence, monthly SaaS billing",Microsoft,Service contract / PO
+15,Fortinet FortiGate – firewall appliance + 3yr support renewal,Fortinet,Service contract / PO
+16,"Bloomberg Terminal – 12 licences, annual renewal (data + analytics)",Bloomberg LP,Works order / Agreement
+17,Siemens S7-1500 PLC – firmware upgrade + engineering support days,Siemens AG,Works order / Agreement
+18,"TomTom Webfleet – 300-vehicle telematics, annual SaaS + hardware",TomTom Webfleet,Works order / Agreement
+19,"Schrödinger SaaS – computational chemistry, annual licence",Schrödinger Inc.,Works order / Agreement
+20,ServiceNow ITSM Pro – 800-user enterprise licence,ServiceNow,Works order / Agreement
+21,"Siemens Xcelerator – digital twin, annual SaaS + PS days",Siemens Xcelerator,Programme agreement
+22,System C EPR – implementation + annual SaaS (electronic patient records),System C Healthcare,Programme agreement
+23,o9 Solutions – demand sensing + S&OP SaaS + advisory days,o9 Solutions,Programme agreement
+24,Gartner advisory – cloud migration readiness assessment,Gartner,Service contract / PO
+25,"Equinix LD8 – co-location, 20 cabinets, annual",Equinix,Service contract / PO
+26,"ISS Facility Services – commercial cleaning, 120 stores, weekly",ISS Facility Services,Vendor invoice / PO
+27,"Atlas Copco – air compressor, 5yr preventive maintenance",Atlas Copco,Vendor invoice / PO
+28,"Office fit-out – 4th floor, 200 workstations, London HQ",Fit-out contractor,Vendor invoice / PO
+29,"Rentokil – pest control, quarterly, 28 hospital sites",Rentokil Initial,Vendor invoice / PO
+30,"G4S – manned guarding, 24hr, 8 distribution centres",G4S Security,Vendor invoice / PO
+31,"Kone – lift maintenance, bi-annual + 24hr call-out, 80 stores",Kone Elevators,Vendor invoice / PO
+32,"Compass Group – employee restaurant, monthly contract",Compass Group,Vendor invoice / PO
+33,"Stericycle – sharps, cytotoxic and infectious waste disposal",Stericycle,Service contract / PO
+34,"Ansen Industrial – factory floor deep clean, annual shutdown",Ansen Industrial Cleaning,Service contract / PO
+35,"Mitie – reception and front-of-house outsource, Head Office",Mitie Group,Service contract / PO
+36,"Mecalux – narrow-aisle racking installation, new DC, 15,000 pallets",Mecalux / Dematic,Service contract / PO
+37,"Bureau Veritas – EPC surveys, full estate, 40 sites",Bureau Veritas,Service contract / PO
+38,"IWG Regus – flexible offices, 10 cities, monthly",IWG / Regus,Works order / Agreement
+39,Asbestos survey + management plan – 2 pre-disposal properties,Asbestos specialist,Works order / Agreement
+40,"Pod Point EV charger maintenance – 80 bays, retail car parks",Pod Point,Works order / Agreement
+41,"JLL – industrial property portfolio advisory, 8-site rationalisation",JLL,Works order / Agreement
+42,"Clearwater Technology – legionella risk assessment + remediation, 60 stores",Clearwater Technology,Service contract / PO
+43,"Viking Fire Protection – fire suppression installation, new ward",Viking Fire Protection,Vendor invoice / PO
+44,"Securitas – CCTV and access control installation + monitoring, 30 stores",Securitas,Service contract / PO
+45,Atlas Copco – compressed air network audit + upgrade works,Atlas Copco,Works order / Agreement
+46,"RICS surveyors – dilapidations survey, 3 lease expiries",RICS surveyors,Service contract / PO
+47,"Rentokil – grounds maintenance, HQ and distribution park, quarterly",Rentokil,Vendor invoice / PO
+48,"Sodexo PFI unitary charge – hospital FM services, annual bundled",Sodexo,Programme agreement
+49,"Roofing contractor – emergency roof repair, DC Coventry",Roofing contractor,Service contract / PO
+50,"Sodexo IFM – cleaning, catering, reception, helpdesk, bundled contract",Sodexo (IFM),Programme agreement
+51,"Spencer Stuart – CFO executive search, retained fee",Spencer Stuart,Vendor invoice / PO
+52,"Adecco – Christmas peak temps, 800 operatives, 8-week contract",Adecco Group,Vendor invoice / PO
+53,"MHFA England – mental health first aid training, 40 practitioners",MHFA England,Vendor invoice / PO
+54,"ADP GlobalView – payroll processing outsource, monthly",ADP GlobalView,Vendor invoice / PO
+55,"uCheck – DBS background screening, 600 new starters, batch",uCheck,Vendor invoice / PO
+56,"Medigold Health – occupational health retainer, pre-employment medicals",Medigold Health,Vendor invoice / PO
+57,LinkedIn Recruiter – 8-seat annual licence,LinkedIn / Microsoft,Vendor invoice / PO
+58,"Skillsoft – e-learning platform, 3,000-seat annual SaaS",Skillsoft,Vendor invoice / PO
+59,"Lee Hecht Harrison – outplacement, 150-person redundancy programme",Lee Hecht Harrison,Service contract / PO
+60,"CIPD Level 7 – 8 HR professionals, part-time programme",CIPD,Service contract / PO
+61,"Perkbox – employee benefits platform, 3,000 employees, annual SaaS",Perkbox,Service contract / PO
+62,"Doctors Direct – locum medical cover, bank holiday, surgical team",Doctors Direct,Service contract / PO
+63,"Odgers Interim – interim Finance Director, 4-month assignment",Odgers Interim,Works order / Agreement
+64,"Simon Jersey – pharmacy staff uniform refresh, 2,000 sets",Simon Jersey,Works order / Agreement
+65,"IR35 off-payroll contractors – 12 software developers, umbrella company",Umbrella company,Works order / Agreement
+66,Willis Towers Watson – executive compensation benchmarking study,Willis Towers Watson,Works order / Agreement
+67,"Deel EOR – employer of record, 25 employees, 12 countries",Deel / Remote,Programme agreement
+68,"Workday – HRIS annual SaaS licence, 5,000-employee base",Workday,Vendor invoice / PO
+69,"Glint (LinkedIn) – employee engagement survey, annual SaaS",Glint / LinkedIn,Service contract / PO
+70,"Reed – volume clerical recruitment, 200 permanent hires",Reed Group,Service contract / PO
+71,"Hirequest ATS – implementation + annual SaaS, 50-location",Hirequest,Service contract / PO
+72,Korn Ferry – organisation design and job architecture programme,Korn Ferry,Works order / Agreement
+73,"St John Ambulance – first aid training, 200 staff, 1-day course",St John Ambulance,Vendor invoice / PO
+74,"Mercer – pension scheme trustee advisory, annual retainer",Mercer,Service contract / PO
+75,"Randstad Sourceright – RPO, full talent lifecycle outsource",Randstad Sourceright,Programme agreement
+76,"McKinsey & Company – operating model redesign, 3-month engagement",McKinsey & Company,Vendor invoice / PO
+77,"Prosci – change management programme, ERP implementation",Prosci,Vendor invoice / PO
+78,"ERM Group – carbon footprint assessment, Scope 1–3",ERM Group,Vendor invoice / PO
+79,"Bureau Veritas – HSE compliance audit, 20 manufacturing sites",Bureau Veritas,Vendor invoice / PO
+80,"Efficio – procurement transformation programme, 6-month engagement",Efficio Consulting,Vendor invoice / PO
+81,Herbert Smith Freehills – employment tribunal defence,Herbert Smith Freehills,Vendor invoice / PO
+82,"Addleshaw Goddard – property lease renewals, 20 stores",Addleshaw Goddard,Vendor invoice / PO
+83,PwC – FY2024 statutory external audit,PricewaterhouseCoopers,Vendor invoice / PO
+84,"Mewburn Ellis – patent registration, 4 formulations, UK + EU",Mewburn Ellis LLP,Vendor invoice / PO
+85,"Deloitte – R&D tax credits claim, FY2024",Deloitte,Service contract / PO
+86,"JLL – property portfolio rationalisation advisory, 60 branches",JLL,Service contract / PO
+87,"Fjord / Accenture Song – customer journey mapping, UX research",Fjord / Accenture Song,Service contract / PO
+88,"Deloitte Corporate Finance – hospital group acquisition, sell-side advisory",Deloitte Corporate Finance,Works order / Agreement
+89,KPMG – FCA section 166 skilled persons review,KPMG,Works order / Agreement
+90,Capgemini Engineering – Industry 4.0 OT/IT advisory + delivery,Capgemini Engineering,Works order / Agreement
+91,"Oliver Wyman – IFRS9 ECL model validation, independent review",Oliver Wyman,Programme agreement
+92,"Arden & GEM CSU – population health analytics, NHS data modelling",Arden & GEM CSU,Programme agreement
+93,"South Pole Group – TCFD sustainability reporting advisory, annual",South Pole Group,Service contract / PO
+94,"Vistra – company secretarial services, annual filings",Vistra,Vendor invoice / PO
+95,"Ipsos Mori – customer satisfaction tracker, quarterly",Ipsos Mori,Service contract / PO
+96,ThoughtWorks – data strategy roadmap + BI implementation,ThoughtWorks,Works order / Agreement
+97,"McKinsey Operations – lean manufacturing, value stream mapping",McKinsey & Company,Vendor invoice / PO
+98,"DLA Piper – GDPR data breach response, ICO liaison",DLA Piper,Service contract / PO
+99,"Roland Berger – post-merger integration programme, 18-month PMO",Roland Berger,Works order / Agreement
+100,"Accenture – digital commerce transformation, advisory + build + run",Accenture,Programme agreement
+101,"KPMG – transfer pricing documentation, OECD BEPS, global",KPMG,Works order / Agreement
+102,Mercer – defined benefit pension triennial actuarial valuation,Mercer,Works order / Agreement
+103,"ITV – 30-second TV advertising, Christmas campaign",ITV,Vendor invoice / PO
+104,"Google Ads – search + shopping, annual digital spend",Google,Vendor invoice / PO
+105,"Edelman – PR agency retainer, monthly, 12-month contract",Edelman PR,Vendor invoice / PO
+106,"Rankin Studio – product photography, summer range",Rankin Studio,Vendor invoice / PO
+107,"Pearlfisher – packaging design, new product range",Pearlfisher,Vendor invoice / PO
+108,"DS Smith – POS display materials, Q4 seasonal refresh, 400 stores",DS Smith,Service contract / PO
+109,"Whalar – TikTok influencer campaign, beauty category",Whalar / TikTok,Service contract / PO
+110,Salesforce Marketing Cloud – annual SaaS + implementation,Salesforce,Service contract / PO
+111,"Clear Channel – 6-sheet OOH poster sites, 200 locations, 4 weeks",Clear Channel,Service contract / PO
+112,"George P. Johnson – client conference, 600 delegates",George P. Johnson,Service contract / PO
+113,"Eagle Eye – loyalty platform SaaS, Boots Advantage Card technology",Eagle Eye Solutions,Works order / Agreement
+114,Wolff Olins – global brand identity refresh and brand guidelines,Wolff Olins,Works order / Agreement
+115,"WTW – employer brand campaign, digital + OOH",Willis Towers Watson,Works order / Agreement
+116,"Geometry Global – shopper marketing, in-store activation, Tesco/Sainsbury's",Geometry Global,Programme agreement
+117,"Klaviyo – email marketing platform, annual SaaS",Klaviyo,Vendor invoice / PO
+118,"Ipsos – brand tracking study, quarterly, 6-country programme",Ipsos,Service contract / PO
+119,"Premier League – shirt sponsorship rights, annual fee",Premier League,Vendor invoice / PO
+120,"Hootsuite Enterprise – social media management platform, annual SaaS",Hootsuite,Service contract / PO
+121,"NHS comms – patient information leaflets, design + print, branded",NHS comms supplier,Works order / Agreement
+122,FCA financial promotions sign-off – annual compliance agency retainer,FCA compliance agency,Programme agreement
+123,"AIG – Directors & Officers liability insurance, annual renewal",AIG Insurance,Vendor invoice / PO
+124,"Euler Hermes – trade credit insurance, annual premium",Euler Hermes / Allianz,Vendor invoice / PO
+125,"Aviva – employer liability insurance, annual renewal",Aviva,Vendor invoice / PO
+126,"AXA – commercial property insurance, 400-store estate",AXA Insurance,Vendor invoice / PO
+127,"Barclays Treasury – FX forward contracts, 12-month hedge premium",Barclays Treasury,Service contract / PO
+128,"Multiple LAs – business rates, 400-store estate, quarterly",Multiple local authorities,Service contract / PO
+129,"FCA – annual authorisation fee, regulated firm",FCA,Service contract / PO
+130,"HMRC – Climate Change Levy, quarterly, manufacturing sites",HMRC,Service contract / PO
+131,"Zurich Insurance – environmental liability, contaminated land",Zurich Insurance,Works order / Agreement
+132,"NICE Actimize – AML platform, annual SaaS + professional services",NICE Actimize,Works order / Agreement
+133,"Barclays / BNP Paribas – sustainability-linked RCF, margin fee",Barclays / BNP Paribas,Programme agreement
+134,"Worldpay – card acquiring fees + Visa/MC interchange, monthly",Worldpay / Visa / Mastercard,Programme agreement
+135,"DHL Supply Chain – outbound pallets, next-day network, 2,000/week",DHL Supply Chain,Vendor invoice / PO
+136,"XPO Logistics – ambient 3PL warehousing, 40,000 sq ft, 12-month",XPO Logistics,Vendor invoice / PO
+137,"Maersk – 40ft containers, Shanghai to Felixstowe, 8 shipments",Maersk,Vendor invoice / PO
+138,"Evri – e-commerce returns, 15,000 units/month",Evri / Hermes,Vendor invoice / PO
+139,"CitySprint – urgent clinical sample courier, 24/7, London hospitals",CitySprint,Vendor invoice / PO
+140,"CHEP – pallet pooling, annual usage charge",CHEP,Vendor invoice / PO
+141,"BP fleet fuel card – diesel, HGV fleet, monthly reconciliation",BP Fleet,Vendor invoice / PO
+142,"Clipper Logistics – e-commerce returns processing, 20,000 units/month",Clipper Logistics,Vendor invoice / PO
+143,"Lineage Logistics – chilled cold chain, 200 retail drops/week",Lineage Logistics,Service contract / PO
+144,"Kuehne+Nagel – inbound air freight, components from Vietnam",Kuehne+Nagel,Service contract / PO
+145,"DB Schenker – EU/UK customs brokerage, post-Brexit",DB Schenker,Service contract / PO
+146,"Paragon FMD – route optimisation SaaS, annual licence",Paragon FMD,Service contract / PO
+147,"Toyota Material Handling – forklift fleet, 40-unit operating lease, 5yr",Toyota Material Handling,Service contract / PO
+148,"Renault Trucks – HGV fleet servicing, 40 trucks, annual schedule",Renault Trucks,Service contract / PO
+149,"DFDS – port storage/demurrage charges, overstay 21 days",DFDS,Works order / Agreement
+150,Ceva Logistics – 4PL end-to-end supply chain management outsource,Ceva Logistics,Works order / Agreement
+151,"World Courier – pharmaceutical cold chain, 2–8°C, hospital to patient",World Courier,Works order / Agreement
+152,"RS Components VMI – vendor-managed inventory, 50 SKUs, JIT delivery",RS Components,Programme agreement
+153,"Ceva Logistics – bonded warehousing, duty-suspended stock, 6 months",Ceva Logistics,Service contract / PO
+154,"E.ON – electricity supply, 400 stores, monthly billing",E.ON,Vendor invoice / PO
+155,"Centrica – natural gas, 3 manufacturing sites, quarterly",Centrica,Vendor invoice / PO
+156,"Thames Water – water and sewerage, hospital estate, quarterly",Thames Water,Vendor invoice / PO
+157,"Signify – LED lighting upgrade, factory, energy efficiency capex",Signify / Philips,Vendor invoice / PO
+158,"TotalEnergies – gas supply, HQ and 3 DCs, annual fixed price",TotalEnergies,Vendor invoice / PO
+159,"Inenco – energy broker, contract renegotiation fee",Inenco Group,Service contract / PO
+160,"Verra – carbon offset credits, VCS-verified, 20,000 tonnes",Verra / Gold Standard,Service contract / PO
+161,"Pod Point – EV charging installation, 50 bays, 20 stores",Pod Point,Service contract / PO
+162,"Siemens Building Technologies – BMS upgrade, 30 stores",Siemens Building Tech.,Service contract / PO
+163,"Ofgem REGOs – renewable energy guarantees of origin, 100GWh annual",Ofgem / REGO issuer,Service contract / PO
+164,"Clarke Energy – CHP plant, 10yr operation & maintenance contract",Clarke Energy,Works order / Agreement
+165,"Ørsted – 15yr offshore wind PPA, fixed-price contract",Ørsted / DONG,Works order / Agreement
+166,"Air Products – liquid nitrogen, oxygen, argon, monthly supply",Air Products,Works order / Agreement
+167,"Schneider Electric – energy-as-a-service, 10yr zero-capex contract",Schneider Electric,Programme agreement
+168,"Fuchs Lubricants – industrial lubricants and hydraulic fluid, monthly",Fuchs Lubricants,Vendor invoice / PO
+169,"RS Components – PPE, gloves, boots, helmets, high-vis, Q3 reorder",RS Components / 3M,Vendor invoice / PO
+170,"Atlas Copco – air compressor, 5yr preventive maintenance contract",Atlas Copco,Vendor invoice / PO
+171,"Fenner Drives – conveyor belt replacement, production line 3",Fenner Drives,Vendor invoice / PO
+172,"Foster Refrigeration – refrigeration PM, 200 cabinets, 80 stores",Foster Refrigeration,Vendor invoice / PO
+173,"Condition monitoring firm – thermographic survey, electrical switchgear",Condition monitoring specialist,Service contract / PO
+174,"Triathlon Battery – fork truck battery packs, 8-unit replacement",Triathlon Battery Systems,Service contract / PO
+175,"Trescal – instrument calibration, 1,200 instruments, annual",Trescal,Service contract / PO
+176,"3M / Mirka – abrasives and cutting discs, monthly manufacturing consumables",3M / Mirka,Service contract / PO
+177,"Brand Energy – scaffolding hire, roof repairs, DC Coventry, 6 weeks",Brand Energy,Works order / Agreement
+178,"Electrical contractor – aged switchgear replacement, 4 sites",Electrical contractor,Works order / Agreement
+179,"AED maintenance – 300 defibrillators, annual inspection + batteries",AED maintenance firm,Works order / Agreement
+180,IBM Maximo + IoT sensors – asset management SaaS + hardware,IBM / IoT vendor,Works order / Agreement
+181,"Mazak – CNC machining centre, new production capex purchase",Mazak Corporation,Programme agreement
+182,"Zebra Technologies – handheld barcode scanners, 80 units, warehouse",Zebra Technologies,Service contract / PO
+183,"HMRC – employer National Insurance contributions, monthly PAYE",HMRC,Works order / Agreement
+184,"HMRC – corporation tax self-assessment, Q3 instalment payment",HMRC,Works order / Agreement
+185,"Birmingham City Council – business rates, manufacturing facility, quarterly",Birmingham City Council,Works order / Agreement
+186,"American Express – corporate travel management programme, annual",American Express,Vendor invoice / PO
+187,"Toner and paper – office consumables, central procurement, quarterly",Various stationery suppliers,Vendor invoice / PO
+188,"Ricoh – managed print services, 200-device fleet, monthly",Ricoh,Vendor invoice / PO
+189,"Workplace ergonomic chairs – 200 units, office refurbishment",Furniture supplier,Vendor invoice / PO
+190,"CIPD – professional body membership fees, 6 HR team members",CIPD,Vendor invoice / PO
+191,"Hilton – preferred hotel programme, corporate negotiated rates, annual RFP",Hilton Hotels,Service contract / PO
+192,"Avis Business – car hire, corporate account, monthly billing",Avis Budget Group,Service contract / PO
+193,"SAP Concur – expense management SaaS, 2,000-user annual licence",SAP Concur,Service contract / PO
+194,"LeasePlan – company car fleet, 150-vehicle operating lease",LeasePlan,Service contract / PO
+195,"Exterion Media – large format retail signage, 80 stores, production + install",Exterion Media,Service contract / PO
+196,"Corporate hospitality – Premier League boxes, client entertainment, annual",Various (Premier League),Works order / Agreement
+197,Concur + AmEx integrated T&E – SaaS + card programme + policy management,Concur + AmEx,Programme agreement

@@ -1,0 +1,7 @@
+pandas
+openpyxl
+python-dotenv
+groq
+jupyter
+notebook
+streamlit

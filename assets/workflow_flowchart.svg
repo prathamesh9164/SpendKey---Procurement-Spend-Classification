@@ -1,0 +1,217 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1220" width="1000" height="1220" style="background: #0b0f19; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#64748b"/>
+    </marker>
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#38bdf8"/>
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#10b981"/>
+    </marker>
+    <marker id="arrowAmber" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#f59e0b"/>
+    </marker>
+  </defs>
+
+  <!-- Title Banner -->
+  <rect x="40" y="30" width="920" height="80" rx="14" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="70" y="68" fill="#f8fafc" font-size="22" font-weight="700" letter-spacing="0.5">SpendKey GenAI Procurement Classifier</text>
+  <text x="70" y="92" fill="#94a3b8" font-size="14">End-to-End Enterprise Architecture and Workflow Pipeline</text>
+  <rect x="750" y="55" width="180" height="30" rx="15" fill="#0284c7" opacity="0.2"/>
+  <text x="840" y="75" fill="#38bdf8" font-size="12" font-weight="600" text-anchor="middle">Pure GenAI (No ML)</text>
+
+  <!-- STAGE 1: INGESTION -->
+  <g transform="translate(40, 135)">
+    <rect width="920" height="145" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+    <rect x="20" y="16" width="300" height="26" rx="6" fill="url(#blueGrad)"/>
+    <text x="32" y="34" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="0.5">STAGE 1: INGESTION AND CLEANING</text>
+    
+    <!-- Input 1 -->
+    <rect x="20" y="55" width="260" height="65" rx="8" fill="url(#cardGrad)" stroke="#334155" filter="url(#shadow)"/>
+    <text x="35" y="80" fill="#f8fafc" font-size="13" font-weight="600">Spend Transactions</text>
+    <text x="35" y="100" fill="#94a3b8" font-size="11">197 indirect invoice line items</text>
+
+    <!-- Input 2 -->
+    <rect x="300" y="55" width="260" height="65" rx="8" fill="url(#cardGrad)" stroke="#334155" filter="url(#shadow)"/>
+    <text x="315" y="80" fill="#f8fafc" font-size="13" font-weight="600">Taxonomy Master</text>
+    <text x="315" y="100" fill="#94a3b8" font-size="11">256 L1-L4 reference rows</text>
+
+    <!-- Normalization Process -->
+    <rect x="610" y="55" width="290" height="65" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" filter="url(#shadow)"/>
+    <text x="625" y="80" fill="#38bdf8" font-size="13" font-weight="600">src/data_processing.py</text>
+    <text x="625" y="100" fill="#cbd5e1" font-size="11">Normalize headers, strip, build hierarchy</text>
+
+    <!-- Connectors -->
+    <line x1="280" y1="87" x2="298" y2="87" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="560" y1="87" x2="608" y2="87" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  </g>
+
+  <!-- Flow Connector 1 to 2 -->
+  <line x1="500" y1="280" x2="500" y2="305" stroke="#38bdf8" stroke-width="2.5" marker-end="url(#arrowCyan)"/>
+
+  <!-- STAGE 2: RETRIEVAL -->
+  <g transform="translate(40, 310)">
+    <rect width="920" height="155" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+    <rect x="20" y="16" width="340" height="26" rx="6" fill="url(#purpleGrad)"/>
+    <text x="32" y="34" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="0.5">STAGE 2: MULTI-SIGNAL RETRIEVAL</text>
+
+    <!-- Domain Synonyms -->
+    <rect x="20" y="55" width="250" height="75" rx="8" fill="url(#cardGrad)" stroke="#334155" filter="url(#shadow)"/>
+    <text x="35" y="78" fill="#c084fc" font-size="12" font-weight="600">Domain Synonyms</text>
+    <text x="35" y="97" fill="#94a3b8" font-size="11">EPC = Energy Survey</text>
+    <text x="35" y="114" fill="#94a3b8" font-size="11">PLC = Electrical Automation</text>
+
+    <!-- Scoring Algorithm -->
+    <rect x="290" y="55" width="290" height="75" rx="8" fill="url(#cardGrad)" stroke="#334155" filter="url(#shadow)"/>
+    <text x="305" y="78" fill="#f8fafc" font-size="12" font-weight="600">Transparent Scoring Engine</text>
+    <text x="305" y="97" fill="#94a3b8" font-size="11">Exact L4: +10 | Notes: +8 | L3: +7</text>
+    <text x="305" y="114" fill="#94a3b8" font-size="11">Tokens: L4(+5), L3(+3), L2(+2), L1(+1)</text>
+
+    <!-- Grounding Candidates -->
+    <rect x="600" y="55" width="300" height="75" rx="8" fill="#1e293b" stroke="#c084fc" stroke-width="1.5" filter="url(#shadow)"/>
+    <text x="615" y="78" fill="#e879f9" font-size="12" font-weight="600">Grounding Candidates</text>
+    <text x="615" y="97" fill="#cbd5e1" font-size="11">Top 5-7 valid taxonomy paths</text>
+    <text x="615" y="114" fill="#94a3b8" font-size="11">+ Official rule boundary notes</text>
+
+    <!-- Connectors -->
+    <line x1="270" y1="92" x2="288" y2="92" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="580" y1="92" x2="598" y2="92" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  </g>
+
+  <!-- Flow Connector 2 to 3 -->
+  <line x1="500" y1="465" x2="500" y2="490" stroke="#c084fc" stroke-width="2.5" marker-end="url(#arrowCyan)"/>
+
+  <!-- STAGE 3: BATCHED GENAI -->
+  <g transform="translate(40, 495)">
+    <rect width="920" height="175" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+    <rect x="20" y="16" width="340" height="26" rx="6" fill="url(#blueGrad)"/>
+    <text x="32" y="34" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="0.5">STAGE 3: BATCHED GENAI INFERENCE</text>
+
+    <!-- Batch Prompting -->
+    <rect x="20" y="55" width="240" height="95" rx="8" fill="url(#cardGrad)" stroke="#334155" filter="url(#shadow)"/>
+    <text x="35" y="80" fill="#f8fafc" font-size="13" font-weight="600">Batched Prompting</text>
+    <text x="35" y="102" fill="#94a3b8" font-size="11">10 Transactions / API call</text>
+    <text x="35" y="120" fill="#94a3b8" font-size="11">5 Procurement few-shots</text>
+    <text x="35" y="138" fill="#38bdf8" font-size="11">Reduces calls 197 to ~20</text>
+
+    <!-- Local Cache -->
+    <rect x="280" y="55" width="200" height="95" rx="8" fill="#1e293b" stroke="#10b981" stroke-width="1.5" filter="url(#shadow)"/>
+    <text x="295" y="80" fill="#34d399" font-size="13" font-weight="600">Local Cache (v2)</text>
+    <text x="295" y="102" fill="#cbd5e1" font-size="11">.classification_cache.json</text>
+    <text x="295" y="120" fill="#94a3b8" font-size="11">Instant 0.0s retrieval</text>
+    <text x="295" y="138" fill="#34d399" font-size="11">No redundant API spend</text>
+
+    <!-- LLM Engine -->
+    <rect x="500" y="55" width="200" height="95" rx="8" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.5" filter="url(#shadow)"/>
+    <text x="515" y="80" fill="#38bdf8" font-size="13" font-weight="600">Groq LLM Engine</text>
+    <text x="515" y="102" fill="#f8fafc" font-size="11">openai/gpt-oss-120b</text>
+    <text x="515" y="120" fill="#94a3b8" font-size="11">High-reasoning architecture</text>
+    <text x="515" y="138" fill="#94a3b8" font-size="11">Sub-2s batched latency</text>
+
+    <!-- Structured JSON -->
+    <rect x="720" y="55" width="180" height="95" rx="8" fill="url(#cardGrad)" stroke="#334155" filter="url(#shadow)"/>
+    <text x="735" y="80" fill="#f8fafc" font-size="13" font-weight="600">Structured JSON</text>
+    <text x="735" y="102" fill="#94a3b8" font-size="11">L1-L4 taxonomy paths</text>
+    <text x="735" y="120" fill="#94a3b8" font-size="11">Reason and confidence</text>
+    <text x="735" y="138" fill="#94a3b8" font-size="11">Review flag</text>
+
+    <!-- Connectors -->
+    <line x1="260" y1="102" x2="278" y2="102" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="480" y1="102" x2="498" y2="102" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="700" y1="102" x2="718" y2="102" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  </g>
+
+  <!-- Flow Connector 3 to 4 -->
+  <line x1="500" y1="670" x2="500" y2="695" stroke="#38bdf8" stroke-width="2.5" marker-end="url(#arrowCyan)"/>
+
+  <!-- STAGE 4: QUALITY & GOVERNANCE -->
+  <g transform="translate(40, 700)">
+    <rect width="920" height="195" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+    <rect x="20" y="16" width="380" height="26" rx="6" fill="url(#amberGrad)"/>
+    <text x="32" y="34" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="0.5">STAGE 4: TWO-TIER GOVERNANCE AND VALIDATION</text>
+
+    <!-- Tier 1 -->
+    <rect x="20" y="55" width="260" height="115" rx="8" fill="url(#cardGrad)" stroke="#334155" filter="url(#shadow)"/>
+    <text x="35" y="80" fill="#f59e0b" font-size="13" font-weight="600">Tier 1: Hierarchy Gate</text>
+    <text x="35" y="102" fill="#cbd5e1" font-size="11">Checks L1-L4 combination</text>
+    <text x="35" y="120" fill="#94a3b8" font-size="11">against 256 master rows</text>
+    <text x="35" y="145" fill="#10b981" font-size="11" font-weight="600">0.0% Hallucination Rate</text>
+
+    <!-- Tier 2 -->
+    <rect x="300" y="55" width="300" height="115" rx="8" fill="url(#cardGrad)" stroke="#334155" filter="url(#shadow)"/>
+    <text x="315" y="80" fill="#f59e0b" font-size="13" font-weight="600">Tier 2: Semantic Mismatch</text>
+    <text x="315" y="102" fill="#cbd5e1" font-size="11">EPC surveys != Asbestos</text>
+    <text x="315" y="120" fill="#cbd5e1" font-size="11">PLC automation != Hydraulics</text>
+    <text x="315" y="138" fill="#cbd5e1" font-size="11">Uniforms != Stationery Paper</text>
+    <text x="315" y="156" fill="#94a3b8" font-size="11">Bundled IFM contracts flagged</text>
+
+    <!-- Governance Decision -->
+    <rect x="620" y="55" width="280" height="52" rx="8" fill="#064e3b" stroke="#10b981" stroke-width="1.5" filter="url(#shadow)"/>
+    <text x="635" y="77" fill="#34d399" font-size="12" font-weight="700">ACCEPTED (Auto-Passed)</text>
+    <text x="635" y="95" fill="#a7f3d0" font-size="11">81.2% (158 TXs) - 81.65% precision</text>
+
+    <rect x="620" y="118" width="280" height="52" rx="8" fill="#78350f" stroke="#f59e0b" stroke-width="1.5" filter="url(#shadow)"/>
+    <text x="635" y="140" fill="#fbbf24" font-size="12" font-weight="700">REVIEW_REQUIRED (Human Gate)</text>
+    <text x="635" y="158" fill="#fde68a" font-size="11">18.8% (37 TXs) - Bundled / Medium conf</text>
+
+    <!-- Connectors -->
+    <line x1="280" y1="112" x2="298" y2="112" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="600" y1="81" x2="618" y2="81" stroke="#10b981" stroke-width="2" marker-end="url(#arrowGreen)"/>
+    <line x1="600" y1="144" x2="618" y2="144" stroke="#f59e0b" stroke-width="2" marker-end="url(#arrowAmber)"/>
+  </g>
+
+  <!-- Flow Connector 4 to 5 -->
+  <line x1="500" y1="895" x2="500" y2="920" stroke="#10b981" stroke-width="2.5" marker-end="url(#arrowGreen)"/>
+
+  <!-- STAGE 5: DELIVERABLES & EVALUATION -->
+  <g transform="translate(40, 925)">
+    <rect width="920" height="185" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+    <rect x="20" y="16" width="340" height="26" rx="6" fill="url(#greenGrad)"/>
+    <text x="32" y="34" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="0.5">STAGE 5: DELIVERABLES AND EVALUATION</text>
+
+    <!-- Deliverable 1 -->
+    <rect x="20" y="55" width="270" height="105" rx="8" fill="url(#cardGrad)" stroke="#10b981" stroke-width="1.5" filter="url(#shadow)"/>
+    <text x="35" y="80" fill="#34d399" font-size="13" font-weight="600">output/final_classification.xlsx</text>
+    <text x="35" y="102" fill="#cbd5e1" font-size="11">Executive-ready workbook</text>
+    <text x="35" y="120" fill="#94a3b8" font-size="11">14 enriched governance columns</text>
+    <text x="35" y="138" fill="#38bdf8" font-size="11">Reasons and audit trails</text>
+
+    <!-- Accuracy Report -->
+    <rect x="310" y="55" width="280" height="105" rx="8" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.5" filter="url(#shadow)"/>
+    <text x="325" y="80" fill="#38bdf8" font-size="13" font-weight="600">src/evaluate_accuracy.py</text>
+    <text x="325" y="102" fill="#cbd5e1" font-size="11">Benchmarked vs 189 Gold Standard</text>
+    <text x="325" y="120" fill="#34d399" font-size="11" font-weight="600">L1: 89.42% | L2: 80.95%</text>
+    <text x="325" y="138" fill="#34d399" font-size="11" font-weight="600">L3: 77.25% | L4: 73.02%</text>
+
+    <!-- Streamlit App -->
+    <rect x="610" y="55" width="290" height="105" rx="8" fill="url(#cardGrad)" stroke="#c084fc" stroke-width="1.5" filter="url(#shadow)"/>
+    <text x="625" y="80" fill="#c084fc" font-size="13" font-weight="600">app.py (Streamlit UI)</text>
+    <text x="625" y="102" fill="#cbd5e1" font-size="11">Interactive dashboard</text>
+    <text x="625" y="120" fill="#94a3b8" font-size="11">Human-in-the-loop review queue</text>
+    <text x="625" y="138" fill="#94a3b8" font-size="11">One-click Excel download</text>
+  </g>
+</svg>

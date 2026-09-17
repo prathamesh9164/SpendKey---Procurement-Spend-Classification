@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables & secrets — NEVER commit the real key
+.env
+!.env.example
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Output files — exclude cache and raw intermediates
+output/.classification_cache.json
+output/raw_classification_results.csv
+
+# Keep clean taxonomy/transaction CSVs and the final Excel
+# output/clean_taxonomy.csv        ← tracked
+# output/clean_transactions.csv    ← tracked
+# output/final_classification.xlsx ← tracked
+
+# Word documents (generated — not source)
+*.docx
+
+# Large binary — the completed answer sheet is submitted separately
+Spendkey_Assignment_Completed.xlsx
