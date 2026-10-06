@@ -1,6 +1,6 @@
 # SpendKey GenAI Procurement Taxonomy Classifier
 
-## 1. Executive Summary
+## 1. Executive Summary  
 
 The **SpendKey GenAI Classifier** is an enterprise-grade procurement classification engine that automatically categorizes indirect procurement spend transactions into a 4-tier taxonomy (`L1 Segment > L2 Family > L3 Category > L4 Commodity`).
 
